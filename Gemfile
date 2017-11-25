@@ -113,6 +113,7 @@ gem 'config', '~> 1.1.0', git: 'https://github.com/railsconfig/config.git'
 
 # Email/Mail Handling
 gem 'daemons'
+gem 'mailjet'
 gem 'mailman'#, require: false
 gem 'mail_extract'
 
