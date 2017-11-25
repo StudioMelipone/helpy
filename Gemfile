@@ -96,6 +96,8 @@ gem 'carrierwave', '~> 1.0.0'
 gem "jquery-fileupload-rails"
 gem 'mini_magick'
 
+gem 'fog'
+
 # Bootstrap/UI Gems
 gem 'font-awesome-sass'
 gem 'bootstrap-sass'
@@ -110,6 +112,7 @@ gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-select-rails'
 
 gem 'config', '~> 1.1.0', git: 'https://github.com/railsconfig/config.git'
+gem 'figaro'
 
 # Email/Mail Handling
 gem 'daemons'

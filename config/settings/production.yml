@@ -1,1 +1,13 @@
 send_email: true
+carrierwave:
+  storage: :fog
+
+s3:
+  access_key: "<%= Figaro.env.S3_ACCESS_KEY %>"
+  secret_key: "<%= Figaro.env.S3_SECRET_KEY %>"
+  bucket: "leadlist-helpy-production"
+
+mailjet:
+  api: "<%= Figaro.env.MAILJET_API %>"
+  secret: "<%= Figaro.env.MAILJET_SECRET %>"
+  from: "<%= Figaro.env.MAILJET_FROM || 'contact@studiomelipone.eu' %>"

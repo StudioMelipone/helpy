@@ -56,3 +56,11 @@ omniauth:
 #    google_oauth2:
 #      id:
 #      secret:
+
+carrierwave:
+  storage: :file
+
+mailjet:
+  api: ""
+  secret: ""
+  from: "contact@studiomelipone.eu"

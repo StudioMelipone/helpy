@@ -32,3 +32,6 @@ public/uploads
 # Docker stuff
 .env
 certs
+
+# Ignore application configuration
+/config/application.yml
